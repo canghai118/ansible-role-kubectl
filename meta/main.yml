@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: kubectl
   author: canghai118
   description: Install kubectl
 
