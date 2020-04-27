@@ -1,0 +1,6 @@
+- name: Download kubectl
+  get_url:
+    url: "{{ kubectl_download_baseurl }}/kubernetes-release/release/{{ kubectl_version }}/bin/linux/amd64/kubectl"
+    dest: /usr/local/bin/kubectl
+    mode: '0755' 
+
